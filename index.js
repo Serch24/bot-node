@@ -1,5 +1,5 @@
 const teleg = require('telegraf');
-const TOKEN = "1xxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxow";
+const TOKEN = "1xxxxxxxxxxx:Axxxxxxxxxxxxxxxxxxxxxxxxxxxxxxw";
 
 const bot = new teleg.Telegraf(TOKEN);
 
@@ -12,18 +12,22 @@ bot.help((ctx)=>{
 });
 
 //crear mi propio comando
-bot.command(['sergio','hola','no'],(ctx)=>{
-    ctx.reply('comando nuevo uwu');
+bot.command(['esto','es','una','prueba'],(ctx)=>{
+    for (const key in ctx) {
+        ctx.reply(`': ${key}'`);
+    }
 });
 
 //escucha y funciona cuando ve 'pc'
-bot.hears('pc',(ctx)=>{
-    ctx.reply('escribiste pc');
+bot.hears('hola',(ctx)=>{
+    ctx.reply('Hola guapo');
 });
 
 //siempre que se escriba algo responderá lo mismo.
 bot.on('text',(ctx)=>{
-    ctx.reply('estas escribiendo')
+    console.log(ctx.from.username);
+    console.log(ctx.message.text);
+    ctx.reply(`${ctx.from.username} estas escribiendo: **${ctx.message.text}**`)
 });
 
 bot.on('sticker',(ctx)=>{

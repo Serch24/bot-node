@@ -6,9 +6,17 @@
   "scripts": {
     "dev": "nodemon index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serch24/bot-node.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serch24/bot-node/issues"
+  },
+  "homepage": "https://github.com/Serch24/bot-node#readme",
   "dependencies": {
     "telegraf": "^3.38.0"
   },
