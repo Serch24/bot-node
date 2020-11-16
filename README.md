@@ -9,7 +9,7 @@
 
 # Solicitud del token: 
 Para empezar debemos buscar a BotFather que es quien nos creará nuestro bot sin vida!!.
-- ![search botfather](img/busqueda.png)
+- ![search botfather](busqueda.png)
 
 Una vez estemos en el chat de botFather debemos escribir ***/newbot***, nos pedirá el nombre que queremos y luego nos dará un ***TOKEN*** para acceder a la api.
 
@@ -75,5 +75,5 @@ Nos vamos a telegram y abrimos un chat con el bot creado y escribimos:
 
 Vemos que responde lo que escribimos.
 
-![respuesta](img/respuesta.png)
+![respuesta](respuesta.png)
 

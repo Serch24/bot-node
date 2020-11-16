@@ -1,5 +1,5 @@
 const teleg = require('telegraf');
-const TOKEN = "1435307955:AAHwalCLtxUSbEzhy2qwkQXG7xcUtQ4qsow";
+const TOKEN = "1xxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxow";
 
 const bot = new teleg.Telegraf(TOKEN);
 
