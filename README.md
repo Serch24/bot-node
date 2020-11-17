@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Serch24/bot-node.svg?branch=main)](https://travis-ci.org/Serch24/bot-node)
 # Bot en Telegram con Nodejs
 ## Requisitos: 
 
